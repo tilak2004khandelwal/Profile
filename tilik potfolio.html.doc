@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tilak | Freelance Data Analyst</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .project {
+      flex: 1 1 250px;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background-color: #1f2937;
+      color: white;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #10b981;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tilak</h1>
+    <p>Freelance Data Analyst | AI & Data Science Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m Tilak, a freelance data analyst with a background in AI and Data Science.
+      I specialize in turning messy datasets into meaningful business insights using Python, SQL, and dashboarding tools like Power BI and Tableau.
+    </p>
+  </section>
+
+  <section>
+    <h2>Services I Offer</h2>
+    <ul>
+      <li>Data Cleaning & Preprocessing</li>
+      <li>Interactive Dashboards (Power BI / Tableau)</li>
+      <li>Sales and Marketing Data Analysis</li>
+      <li>SQL Data Queries and Reports</li>
+      <li>Survey Data Analytics & Visualizations</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="project">
+        <h3>Sales Dashboard (Power BI)</h3>
+        <p>Visualized monthly sales trends and customer segments for an e-commerce client.</p>
+      </div>
+      <div class="project">
+        <h3>Customer Segmentation (Python)</h3>
+        <p>Used K-Means clustering to group customers by purchasing behavior.</p>
+      </div>
+      <div class="project">
+        <h3>Survey Analysis Report</h3>
+        <p>Analyzed survey responses for a marketing firm to uncover patterns and preferences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Name:</label>
+      <input type="text" name="name" required />
+      <label>Email:</label>
+      <input type="email" name="_replyto" required />
+      <label>Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <div class="cta">
+    <a href="https://fiverr.com/yourprofile" target="_blank">Hire Me on Fiverr</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Tilak. All rights reserved.
+  </footer>
+
+</body>
+</html>
